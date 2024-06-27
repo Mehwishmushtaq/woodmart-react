@@ -113,12 +113,11 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-
                     <div className='desktop-navbar-item'>
                         <Link to="/cart" className='btn btn-primary px-3 rounded-pill'>
                             <FontAwesomeIcon icon={faCartPlus} />
                         </Link>
-                        <Link to="/login" className='btn btn-primary px-3 rounded-pill' style={{marginLeft:'10px'}}>
+                        <Link to="/login" className='btn btn-primary px-3 rounded-pill' style={{ marginLeft: '10px' }}>
                             <FontAwesomeIcon icon={faSignInAlt} />
                         </Link>
                     </div>

@@ -47,16 +47,16 @@ const Footer = () => {
                   Products
                 </h6>
                 <p>
-                  <a href="#!" className="text-reset">Angular</a>
+                  <a href="/" className="text-reset">Home</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">React</a>
+                  <a href="/about" className="text-reset">About Us</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Vue</a>
+                  <a href="/contact" className="text-reset">Contact Us</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Laravel</a>
+                  <a href="/blog" className="text-reset">Blogs</a>
                 </p>
               </div>
               {/* Grid column */}
