@@ -58,6 +58,9 @@ const Footer = () => {
                 <p>
                   <a href="/blog" className="text-reset">Blogs</a>
                 </p>
+                <p>
+                  <a href="/dashboard" className="text-reset">Dashboard</a>
+                </p>
               </div>
               {/* Grid column */}
 

@@ -38,6 +38,7 @@ import DisplayOffers from './pages/DisplayOffers';
 import ProductList from './components/ProductList';
 import CartManager from './components/CartManager';
 import Login from './components/LoginSignUp'
+import Dashboard from './components/AdminSide/dashboard';
 
 
 
@@ -93,6 +94,8 @@ const App = () => {
         <Route path="/display-offers" element={<DisplayOffers/>} />
         <Route path="/cart" element={<CartManager>{() => null}</CartManager>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/dashboard" element={<Dashboard/>} />
+
 
 
        
