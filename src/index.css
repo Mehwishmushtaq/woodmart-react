@@ -194,6 +194,12 @@ p {
 .image-container {
   position: relative;
 }
+/* Media query for mobile view */
+@media (max-width: 767px) {
+  .image-container {
+    margin-left: 55px;
+  }
+}
 
 .img2 {
   margin-left: 30px;
